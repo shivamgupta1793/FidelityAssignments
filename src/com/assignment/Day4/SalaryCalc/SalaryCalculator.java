@@ -2,7 +2,7 @@ package com.assignment.Day4.SalaryCalc;
 
 public class SalaryCalculator {
 
-    private static  SalaryInputs salaryInputs;
+    private static com.assignment.Day4.SalaryCalc.SalaryInputs salaryInputs;
 
     public double calculateSalary()
     {
