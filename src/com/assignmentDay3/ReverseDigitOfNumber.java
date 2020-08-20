@@ -1,6 +1,6 @@
-package com.company;
+package com.assignment;
 
-public class Day3_reversedigitOfNumber {
+public class ReverseDigitOfNumber {
     public static void main(String[] args) {
 
         int num=12345678;

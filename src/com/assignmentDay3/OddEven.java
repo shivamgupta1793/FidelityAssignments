@@ -1,6 +1,6 @@
-package com.company;
+package com.assignment;
 
-public class Day3_Odd_Even {
+public class OddEven {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
-package com.company;
+package com.assignment;
 
-public class Day3_Integer_till20 {
+public class Integer20 {
     public static void main(String[] args) {
 
         int i=0;

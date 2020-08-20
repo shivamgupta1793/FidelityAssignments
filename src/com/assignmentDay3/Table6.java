@@ -1,6 +1,6 @@
-package com.company;
+package com.assignment;
 
-public class Day3_Table_6 {
+public class Table6 {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
-package com.company;
+package com.assignment;
 
-public class Day3_CubeofNumber {
+public class CubeofNumber {
 
     public static void main(String[] args){
 
