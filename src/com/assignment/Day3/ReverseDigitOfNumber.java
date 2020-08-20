@@ -1,4 +1,4 @@
-package com.assignment;
+package com.assignment.Day3;
 
 public class ReverseDigitOfNumber {
     public static void main(String[] args) {
