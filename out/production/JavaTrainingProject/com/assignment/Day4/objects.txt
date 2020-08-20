@@ -1,0 +1,9 @@
+ //Name few objects and identify the state and behavior of those objects
+
+1. Fan
+-state : color, fan wings,size
+-behaviour : rotation,speed
+
+2. TV
+-state : screen size, color,type
+-behaviour : picture, sound
