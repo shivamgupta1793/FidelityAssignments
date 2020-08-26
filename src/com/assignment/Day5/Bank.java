@@ -1,10 +1,19 @@
 package com.assignment.Day5;
 
+import java.util.Scanner;
+
 public class Bank {
 
     public static void main(String[] args) {
         double accountBalance;
-       AccountDetails accountDetails1= Base.createAccount("Abhishek",'S',5000);
+     Scanner scanner=new Scanner(System.in);
+     System.out.println("Enter Accoutn type:: ");
+     char accountType=scanner.next().charAt(0);
+     System.out.println("Enter Account Holder Name:: ");
+     String accname=scanner.nextLine();
+     System.out.print("Enter Amount:: ");
+     double initalAmt=scanner.nextDouble();
+       AccountDetails accountDetails1= Base.createAccount(accname,accountType,initalAmt);
         Base savingsAccount=new SavingsAccount();
         savingsAccount.depositAmount(300,accountDetails1);
         accountBalance=Base.getBalance(accountDetails1);
