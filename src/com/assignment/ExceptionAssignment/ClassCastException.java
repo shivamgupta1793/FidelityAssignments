@@ -1,24 +1,26 @@
 package com.assignment.ExceptionAssignment;
 
+import java.util.HashSet;
+
 public class ClassCastException {
 
-    public void catchClassCastException(int x)
-    {
-        try{
 
-            byte a= (byte)x;
-            System.out.println(a);
-        }
-        catch (java.lang.ClassCastException e)
-        {
-            System.out.println("Exception::  "+e);
-        }
-
-
+    public Object[] hashSetToAnArray(HashSet<String> set) {
+        return set.toArray();
     }
 
 
     public static void main(String[] args) {
-        new ClassCastException().catchClassCastException(10000000);
+
+        HashSet<String> set = new HashSet<>();
+        set.add("James");
+        set.add("John");
+        set.add("Jack");
+        set.add("Paul");
+        set.add("Noah");
+        String[] array = (String[]) new ClassCastException().hashSetToAnArray(set);
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
     }
 }
